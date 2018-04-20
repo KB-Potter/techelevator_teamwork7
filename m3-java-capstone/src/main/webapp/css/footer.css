@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+ /* FOOTER */
+
+  footer {
+    background-color: powderblue;
+    color: black; 
+    font-size: 15px;  
+    display: flex; 
+    flex-flow: row nowrap; 
+    justify-content: center;
+    align-items: center;
+    height: 75px;      
+    margin-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif; 
+  }
+  
+  a:link {
+	color: white; 
+	text-decoration: none; 
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:visited {
+	color: green;
+	text-decoration: none; 
+}
+  
+  /* PHONE VERSION */
+  
+  @media (max-width: 700px) {
+
+footer {
+    font-size: 10px;
+    height: 50px; 
+    flex-flow: row wrap;       
+    margin-bottom: 15px;
+  }
+ }

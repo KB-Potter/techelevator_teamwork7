@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+/*HOME*/
+
+.parkList {
+	background-color: beige;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+	border-radius: 20px;
+	width: 92%;
+	margin: 10px 10px 10px 40px;
+}
+
+.parkPanel {
+	padding: 20px 0px 0px 20px; 
+	display: flex;  
+  	flex-flow: row wrap;
+}
+
+.parkPanel > * {
+	flex: 0 0 50%; 
+}
+
+#parkImg {
+	max-width: 450px;
+	padding: 10px 0px 10px 0px;
+	margin: 0 auto; 
+	  
+}
+
+#parkName {
+    font-size: 21px; 
+    padding-left: 30px; 
+	 
+}
+
+#parkDescription { 
+    font-size: 17px; 
+    max-width: 70%; 
+    padding-left: 30px;
+    padding-bottom: 20px; 
+    margin: 0 auto; 
+}
+
+ .parkInfo {
+  justify-contnent: flex-end;   /* don't touch this */
+  
+} 
+
+section a:link {
+	color: black; 
+	text-decoration: none; 
+}
+
+section a:hover {
+	text-decoration: underline; 
+}
+
+section a:visited {
+	color: purple;
+	text-decoration: none; 
+}
+
+  /* PHONE VERSION */
+  
+ @media (max-width: 1025px) {
+
+#parkImg {
+	max-width: 100%; 
+	height: auto; 
+}
+
+#parkName {
+    font-size: 18px; 
+	padding-left: 20px;
+	
+}
+
+#parkDescription { 
+    font-size: 16px; 
+    padding-left: 20px;
+    padding-bottom: 10px;  
+    max-width: 80%
+}
+
+ }
+ 
+@media (max-width: 700px) {
+	
+.parkList {
+	width: 100%;
+	margin: 10px 0px 10px 0px; 
+
+}
+
+.parkPanel {
+  flex-flow: column nowrap;
+  width: 100%;
+  padding-top: 10px;
+  margin: 10px 0px 10px 0px; 
+  
+}
+
+#parkImg {
+	max-width: 90%; 
+	height: auto; 
+	padding: 5px 0px 5px 0px;
+	
+}
+
+#parkName {
+    font-size: 16px;
+	
+}
+
+#parkDescription { 
+    font-size: 14px;  
+    width: 80%; 
+    padding: 0px 0px 20px 20px; 
+    margin: 0px 0px 0px 0px; 
+}
+
+ }

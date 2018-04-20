@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+.parkDetailPanel {
+	background-color: beige;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+    display: flex; 
+    flex-flow: column nowrap; 
+    text-align: center; 
+	border-radius: 10px;
+	width: 92%;
+	margin: 10px auto; 
+	padding-top: 20px;
+}
+
+/*DETAILS PAGE*/
+
+#parkImg {
+	margin: 0 auto; 
+	padding-bottom: 10px;
+}
+
+#parkName {
+    font-size: 18px;
+    margin: 0 auto; 
+}
+
+#parkDescription { 
+	width: 85%; 
+    font-size: 14px; 
+    margin: 0 auto;  
+    padding-bottom: 20px; 
+}
+
+#inspirationalquote {
+	font-size: 16px; 
+	color: green;
+}
+
+#inspirationalquotesource {
+	font-size: 12px; 
+	color: brown; 
+}
+
+span {
+	font-size: 16px;
+	margin: 0 auto;  
+}
+
+.dropdownTable {
+	margin: 0 auto; 
+	padding: 10px 0px 10px 0px; 
+}
+
+.dropdown-content {
+	margin: 0 auto; 
+	font-size: 14px; 
+}
+
+.fiveDayForecast {
+	background-color: white; 
+	display: flex;
+    flex-flow: row nowrap; 
+    justify-content: space-around; 
+	padding: 10px;
+}
+
+.weatherImg {
+	max-width: 50%; 
+	max-height: auto; 
+}
+
+#today {
+	max-width: 80%; 
+	max-height: auto;
+}
+
+.forcast {
+	padding-top: 10px; 
+	font-size: 16px;
+	padding-left: 20px;   
+}
+
+#one {
+	font-size: 20px; 
+	font-style: bold;
+	padding-left: 40px;  
+}
+
+
+.high {
+	padding-left: 40px; 
+	color: red; 
+	
+}
+
+.low {
+	padding-left: 40px; 
+	color: blue;
+	
+}
+
+/* PHONE VERSION */
+  
+  @media (max-width: 700px) {
+	
+.parkDetailPanel {
+    display: flex; 
+    flex-flow: column wrap; 
+	border-radius: 10px;
+	width: 100%;
+	margin: 10px 0px 10px 0px; 
+	padding-top: 10px; 
+	}
+	
+#parkImg {
+	max-height: auto;
+	max-width: 90%; 
+}
+
+#parkName {
+    font-size: 14px; 
+	padding-left: 30px;
+}
+
+#parkDescription { 
+    font-size: 12px; 
+    padding-left: 30px; 
+}
+
+#inspirationalquote {
+	font-size: 14px; 
+}
+
+#inspirationalquotesource {
+	font-size: 10px; 
+}
+
+span {
+	font-size: 14px; 
+	padding-bottom: 10px; 
+}
+
+.dropdown-content {
+	font-size: 12px; 
+	padding-bottom: 10px; 
+}
+
+.fiveDayForecast {
+    flex-flow: row wrap; 
+}
+
+.weatherImg {
+	max-width: 30%; 
+	max-height: auto; 
+}
+
+#today {
+	max-width: 50%; 
+	max-height: auto;
+}
+
+.forcast {
+	padding-top: 10px; 
+	font-size: 14px;
+	padding-left: 15px;   
+}
+
+#one {
+	font-size: 16px; 
+	padding-left: 30px;  
+}
+
+
+.high {
+	padding-left: 30px; 
+	
+}
+
+.low {
+	padding-left: 30px; 
+	
+}
+
+
+ }

@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+section {
+	background-color: #FFF;
+	font-family: 'Times New Roman', Times, serif;
+	color: black;
+    display: flex; 
+    flex-flow: row wrap; 
+	border-radius: 10px;
+	width: 85%;
+	margin: 60px 80px;
+	min-height: 500px;
+	padding-top: 10px;
+}
+
+section a:link {
+	color: black;
+}
+
+/*FAVE PARKS PAGE*/
+
+.parkImg {
+	padding: 14px;
+	color: black;
+}
+
+#parkName {
+
+}
+
+
+#first {
+	
+}
+
+#second {
+	
+}
+
+#third {
+	
+}
+
+#theNotSoGreatParksWowThisIsALongIdNameYoureGoingToHaveToCopyAndPasteThis { /*why?*/
+	
+}
+
+.count {
+	
+}
+
+/* PHONE VERSION */
+  
+  @media (max-width: 500px) {
+  
+section {
+    display: flex; 
+    flex-wrap: wrap; 
+	border-radius: 10px;
+	width: 100%;
+	margin: 30px 50px;
+	min-height: 500px;
+	padding-top: 10px;
+	}
+	
+.parkImg {
+	padding: 14px;
+	color: black;
+}
+
+.parkName {
+
+}
+
+#first {
+	
+}
+
+#second {
+	
+}
+
+#third {
+	
+}
+
+#theNotSoGreatParksWowThisIsALongIdNameYoureGoingToHaveToCopyAndPasteThis { /*why?*/
+	
+}
+
+.count {
+	
+}
+  
+ }
+
